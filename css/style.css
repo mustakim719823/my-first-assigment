@@ -34,10 +34,8 @@
 
 .description {
     color: gray;
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
-
 .bnt-primary {
     color: white;
     font-size: 20px;
@@ -46,16 +44,14 @@
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 90px;
-    outline-style: none;
-    
+    outline-style: none;  
 }
 
 .profile-pik {
     width: 350px;
     height: 575px;
     margin-top: 40px;
-    /* position: absolute; */
-    
+
 }
 
 /* main style */
@@ -63,7 +59,6 @@
     text-align: center;
 
 }
-
 .flower-title {
     color: black;
     font-size: 40px;
@@ -144,15 +139,9 @@ color:rgba(215, 230, 206, 0.884) ;
 
 }
 
-
-
-
-
-
-
 /* hotdeal in */
 .hotdeal{
-    display: flex;
+    display:flex;
     gap: 250px;
     background-color: rgb(248, 239, 226) ;
     align-items: center;
@@ -174,5 +163,78 @@ color:rgba(215, 230, 206, 0.884) ;
 .rightside> img{
     width: 50%;
     height: 60%;
-    padding-right: px;
+}
+/* hotdeal end  */
+ 
+
+/* Instagram style */
+.instagram-title{
+    text-align: center;
+    margin-top: 130px;   
+}
+.instagram-blog{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.instagram-description{
+    color:rgb(100, 99, 99) ;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin: 24px 400px 45px 400px;
+
+    
+}
+.instagram-image{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+.images{
+    width: 270px;
+    height: 270px;
+    gap: 24px;
+}
+/* instagram end */
+
+/* Get The Latest Deals */
+.latest-deals{
+    background-image: url(../image/Rectangle\ 9.png);
+    margin: 0px 100px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.latest-title{
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-top: 120px;
+    margin-bottom:20px ;
+    
+}
+.latest-drescription{
+    color: rgb(75, 69, 69);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.input{
+    padding: 18px 300px 18px 15px;
+    border-radius: 8px;
+}
+/* Get The Latest Deals  end */
+ 
+/* footer style */
+.footer-contain{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
