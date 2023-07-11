@@ -1,57 +1,178 @@
 /* header style */
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
+
 }
-.header{
+
+.header {
     background-color: rgb(255, 235, 230);
-    opacity: 0.8;
     margin-bottom: 150px;
 }
-.bannar{
+
+.bannar {
     display: flex;
-    justify-content:space-between ;
-    align-items: center;
+    align-items: center; 
+   
 }
-.bannar-content{
-    padding: 0px  100px 0px 200px;
+
+.bannar-content {
+    padding: 0px 100px 0px 200px;
     align-items: center;
     justify-content: space-between;
 }
-.bannar-title{
+
+.bannar-title {
     color: black;
     font-size: 45px;
     font-family: sans-serif;
     font-weight: 900px;
     margin-bottom: 30px;
     padding-top: 100px;
+
+}
+
+.description {
+    color: gray;
+    font-size: 16px;
     
 }
-.bannar-description{
-    color:gray;
-    font-size: 16px;
-    margin-bottom: 30px;
-}
-.bnt-primary{
-    color:white;
+
+.bnt-primary {
+    color: white;
     font-size: 20px;
-    background-color:#E55473 ;
+    background-color: #E55473;
     padding: 15px 30px;
     border-radius: 10px;
+    margin-top: 30px;
     margin-bottom: 90px;
+    outline-style: none;
+    
 }
-.profile-pik{
-    width: 35f0px; 
-    height: 500px;
+
+.profile-pik {
+    width: 350px;
+    height: 575px;
     margin-top: 40px;
-    margin-right: 100px;
+    /* position: absolute; */
+    
 }
+
 /* main style */
-.flower-contain{
+.flower-contain {
     text-align: center;
+
 }
-.nice-flower{
+
+.flower-title {
+    color: black;
+    font-size: 40px;
+    font-size: 700;
+    font-family: sans-serif;
+}
+
+.description {
+    color: grey;
+    margin: 30px 450px 0px 450px;
+
+}
+
+.nice-flower {
     text-align: center;
-    /* display: flex; */
+    gap: 300px;
+}
+
+.image-flower {
+    width: 200px;
+    height: 250px;
+    padding: 70px 50px 0px 50px;
+    align-items: center;
+    justify-content:center;
+    background-color: moccasin;
+    border-radius: 150px 150px 0px 0px;
+}
+
+#image1{
+color: rgb(218, 248, 248) ;
+}
+#image2{
+color:rgba(215, 230, 206, 0.884) ;
+}
+
+.pink-flower{
+    margin: 30px 0px 0px 30px;
+
+}
+.tree-name{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight:500px;
+    margin-top:32px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.delivery-man {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 239, 226);
+    margin:40px 200px 40px 200px ;
+    border-radius: 10px;
+    
+}
+.icon{
+    gap: 100px;
+    padding-left: 250px;
+}
+.image-icone{
+    width: 30px;
+    height: 30px;
+    padding: 80px 60px 24px 60px;
+}
+.title{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+.icone-name{
+    color: gray;
+    font-size:18px;
+    padding-bottom:80px ;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+/* hotdeal in */
+.hotdeal{
+    display: flex;
+    gap: 250px;
+    background-color: rgb(248, 239, 226) ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+.leftside{
+    text-align: center;
+
+}
+.hot-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 150px;
+    margin-top: 220px;
+    margin-bottom: 24px;
+
+}
+.rightside> img{
+    width: 50%;
+    height: 60%;
+    padding-right: px;
 }
